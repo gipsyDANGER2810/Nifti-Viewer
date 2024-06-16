@@ -1,0 +1,26 @@
+.image-viewer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .canvas-container {
+    width: 100%;
+    max-width: 800px; /* Adjust as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  canvas {
+    width: 100%; /* Make the canvas responsive */
+    height: auto;
+    image-rendering: optimizeQuality;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
+    image-rendering: pixelated;
+    border: 1px solid #000;
+  }
+  
